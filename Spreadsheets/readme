@@ -1,1 +1,49 @@
+Ticket Analysis Sheets
 
+Project Overview:-
+
+This project focuses on analyzing support/service tickets using Microsoft Excel.
+The goal is to transform raw ticket data into meaningful insights through data cleaning, processing, and visualization.
+
+1.Features
+Data Cleaning & Preprocessing
+Ticket Categorization
+Status Tracking (Open, Closed, Pending)
+Priority Analysis (High, Medium, Low)
+Dashboard Visualization
+KPI Metrics for decision-making
+
+2.Files Included
+Ticket_Analysis_Sheets.xlsx → Main Excel file containing:
+Raw Data Sheet
+Processed Data
+Pivot Tables
+Analytics Dashboard
+
+3.Tools Used
+Microsoft Excel
+Pivot Tables
+Charts (Bar, Pie, Line)
+Conditional Formatting
+
+4.Dashboard Insights
+
+The dashboard provides:
+
+Total number of tickets
+Tickets by priority
+Tickets by status
+Category-wise distribution
+Trend analysis over time
+
+5.How to Use
+Download the Excel file
+Open in Microsoft Excel
+Navigate to the Dashboard sheet
+Use filters/slicers to explore data
+
+6.Learning Outcomes
+Excel data analysis techniques
+Building interactive dashboards
+Understanding business metrics
+Data visualization best practices
