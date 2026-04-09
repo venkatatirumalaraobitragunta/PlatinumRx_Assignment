@@ -1,1 +1,72 @@
+Hotel Management Database
 
+Project Overview:-
+
+This project demonstrates the design and implementation of a Hotel Management Database using SQL.
+It includes table creation, relationships, and sample data to simulate real-world hotel booking and billing operations.
+
+Database Structure:-
+1️.Users Table
+
+Stores customer details:
+User ID
+Name
+Phone Number
+Email
+Billing Address
+
+2️.Bookings Table
+
+Tracks room bookings:
+Booking ID
+Booking Date
+Room Number
+User ID (Foreign Key)
+
+3️.Items Table
+
+Contains food/menu items:
+Item ID
+Item Name
+Item Price
+
+4️.Booking Commercials Table
+
+Stores billing details:
+Bill ID
+Booking ID
+Item Ordered
+Quantity
+Bill Date
+
+5. Relationships
+One user → Many bookings
+One booking → Multiple items
+Items linked through billing table
+
+6.Concepts Used
+SQL DDL (CREATE TABLE)
+SQL DML (INSERT INTO)
+Primary Keys
+Foreign Keys
+Relational Database Design
+
+7.Sample Data
+
+The database includes:
+5 users
+6 bookings
+8 menu items
+Multiple billing transactions
+
+8.How to Use
+Open MySQL / PostgreSQL / any SQL tool
+Run the SQL script file
+Tables and data will be created automatically
+Perform queries for analysis
+
+9.Learning Outcomes
+Understanding database schema design
+Working with relationships (FK constraints)
+Writing structured SQL queries
+Real-world data modeling
