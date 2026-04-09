@@ -1,72 +1,85 @@
-Hotel Management Database
-
+SQL Case Study Projects (Hotel & Clinic Analytics)
 Project Overview:-
 
-This project demonstrates the design and implementation of a Hotel Management Database using SQL.
-It includes table creation, relationships, and sample data to simulate real-world hotel booking and billing operations.
+This repository contains two real-world SQL case studies:
 
-Database Structure:-
-1️.Users Table
+1.Hotel Management System
+2.Clinic Business Analytics
 
-Stores customer details:
-User ID
-Name
-Phone Number
-Email
-Billing Address
+Each project includes:
 
-2️.Bookings Table
+Database Schema Design
+Sample Data Insertion
+Advanced SQL Queries for Analysis
 
-Tracks room bookings:
-Booking ID
-Booking Date
-Room Number
-User ID (Foreign Key)
+Project Structure SQL-Case-Studies
+  01_Hotel_Schema_Setup.sql
+  02_Hotel_Queries.sql
+  03_Clinic_Schema_Setup.sql
+  04_Clinic_Queries.sql
+  README.md
 
-3️.Items Table
+1.Hotel Management System
+=>Files:
+Schema Setup →Queries →Database Tables
+users → Customer details
+bookings → Room bookings
+items → Food/menu items
+booking_commercials → Billing details
 
-Contains food/menu items:
-Item ID
-Item Name
-Item Price
+Key SQL Problems Solved
+Latest booking per user
+Monthly revenue calculation
+High-value bills filtering
+Most & least ordered items
+Second highest bill per month
 
-4️.Booking Commercials Table
+=>Concepts Used
+Joins (INNER JOIN)
+Window Functions (ROW_NUMBER, RANK)
+Aggregations (SUM, GROUP BY)
+CTEs (WITH clause)
 
-Stores billing details:
-Bill ID
-Booking ID
-Item Ordered
-Quantity
-Bill Date
+2.Clinic Business Analytics
+=>Files:
+Schema Setup →Queries →Database Tables
+clinics → Clinic details
+customer → Customer data
+clinic_sales → Revenue data
+expenses → Expense tracking
 
-5. Relationships
-One user → Many bookings
-One booking → Multiple items
-Items linked through billing table
+=> Key SQL Problems Solved
+Revenue by sales channel
+Top 10 customers
+Monthly profit & loss analysis
+Most profitable clinic per city
+Second least profitable clinic per state
 
-6.Concepts Used
-SQL DDL (CREATE TABLE)
-SQL DML (INSERT INTO)
-Primary Keys
-Foreign Keys
+=>Concepts Used
+Advanced CTEs
+Window Functions (RANK)
+Profit calculation logic
+Full join simulation (UNION)
+Business analytics queries
+
+=>Tools & Technologies
+SQL (MySQL / PostgreSQL compatible)
 Relational Database Design
+Data Analysis using SQL
 
-7.Sample Data
+=>How to Run
+Open MySQL / PostgreSQL
+Run schema files first:
+Hotel → 01_Hotel_Schema_Setup.sql
+Clinic → 03_Clinic_Schema_Setup.sql
 
-The database includes:
-5 users
-6 bookings
-8 menu items
-Multiple billing transactions
+Then run queries:
+02_Hotel_Queries.sql
+04_Clinic_Queries.sql
 
-8.How to Use
-Open MySQL / PostgreSQL / any SQL tool
-Run the SQL script file
-Tables and data will be created automatically
-Perform queries for analysis
-
-9.Learning Outcomes
-Understanding database schema design
-Working with relationships (FK constraints)
-Writing structured SQL queries
-Real-world data modeling
+3.Learning Outcomes
+Real-world database design
+Writing complex SQL queries
+Analytical thinking using SQL
+Interview-level problem solving
+Understanding business metrics
