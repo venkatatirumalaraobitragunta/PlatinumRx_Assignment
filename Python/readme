@@ -1,1 +1,52 @@
+Project Overview:-
 
+This repository contains simple Python programs designed to practice basic logic building and problem-solving.
+These are beginner-friendly tasks useful for interviews and coding fundamentals.
+
+Files Included
+
+1️.Time Converter
+Description:
+Converts minutes into hours and remaining minutes.
+
+Example:
+Input: 130
+Output: 2 hrs 10 minutes
+
+Concepts Used:
+Integer division (//)
+Modulus operator (%)
+User input handling
+
+2️.Remove Duplicates from String
+Description:
+Removes duplicate characters from a string while preserving order.
+
+Example:
+Input: programming
+Output: progamin
+
+Concepts Used:
+Loops (for)
+String manipulation
+Conditional logic
+
+3.Technologies Used
+Python 
+Basic Input/Output
+Core Programming Concepts
+
+4.How to Run
+Install Python
+Clone this repository
+Run any file using:
+python filename.py
+
+5.Learning Outcomes
+Strong understanding of basic logic
+Practice with loops and conditions
+Writing clean and simple Python code
+Problem-solving skills improvement
+
+
+If you found this helpful, give it a ⭐ on GitHub!
